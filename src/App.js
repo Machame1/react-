@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Weather from './components/currentLocation';
 
@@ -10,16 +9,15 @@ function App() {
         <Weather />
       </div>
       <div className="footer-info">
-        <a href="/">
-          ❤️
-        </a>{" "}
-        | Developed by{" "}
+        
+        
+        Developed by
+        <a target="_blank" href="https://github.com/Machame1/react-">
+        (<u> S.Syam_Babu</u>)
+        </a>
+        | Done in
         <a target="_blank" href="/">
-         S.Syam_Babu
-        </a>{" "}
-        | Powered by{" "}
-        <a target="_blank" href="/">
-          REACT JS
+         ( REACT JS)
         </a>
       </div>
     </>
